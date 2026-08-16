@@ -21,6 +21,7 @@ Maintained by [Sylvester Kaczmarek](https://github.com/sylvesterkaczmarek) · [s
 - [Robotics and physical autonomy](#robotics-and-physical-autonomy)
 - [Aerospace and space autonomy](#aerospace-and-space-autonomy)
 - [Standards and assurance guidance](#standards-and-assurance-guidance)
+- [Cite this list](#cite-this-list)
 
 ## Foundations and runtime assurance
 
@@ -138,3 +139,26 @@ A resource should normally meet at least two of these criteria:
 - sufficiently mature, influential, or novel to justify recommendation.
 
 Low-signal link dumps, generic AI safety material without an autonomy connection, abandoned projects without historical importance, and promotional submissions are unlikely to be accepted.
+
+## Cite this list
+
+If you use or adapt this curated list, please cite:
+
+> Kaczmarek, S. (2026). *Awesome Assured Autonomy*. GitHub. https://github.com/sylvesterkaczmarek/awesome-assured-autonomy
+
+**BibTeX**
+
+```bibtex
+@misc{Kaczmarek_2026_Awesome_Assured_Autonomy,
+  author = {Sylvester Kaczmarek},
+  title  = {{Awesome Assured Autonomy}},
+  year   = {2026},
+  url    = {https://github.com/sylvesterkaczmarek/awesome-assured-autonomy}
+}
+```
+
+Citation metadata is also provided in [`CITATION.cff`](CITATION.cff).
+
+The list is released under CC0 1.0 Universal. See [LICENSE](LICENSE).
+
+Curated by **Sylvester Kaczmarek** · [https://www.sylvesterkaczmarek.com](https://www.sylvesterkaczmarek.com)
