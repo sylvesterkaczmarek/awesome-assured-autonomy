@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use or adapt this curated list, please cite it using the metadata below."
+title: "Awesome Assured Autonomy"
+type: dataset
+authors:
+  - family-names: "Kaczmarek"
+    given-names: "Sylvester"
+repository-code: "https://github.com/sylvesterkaczmarek/awesome-assured-autonomy"
+url: "https://github.com/sylvesterkaczmarek/awesome-assured-autonomy"
+license: "CC0-1.0"
+keywords:
+  - assured autonomy
+  - autonomous systems
+  - runtime assurance
+  - formal verification
+  - robotics
+  - AI safety
+  - aerospace
+abstract: "A curated collection of research, tools, benchmarks, standards, and open-source systems for assuring autonomous systems."
