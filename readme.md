@@ -16,6 +16,7 @@ Maintained by [Sylvester Kaczmarek](https://github.com/sylvesterkaczmarek) · [s
 - [Safety filters and safe learning](#safety-filters-and-safe-learning)
 - [Formal methods and verification](#formal-methods-and-verification)
 - [Runtime monitoring and policy enforcement](#runtime-monitoring-and-policy-enforcement)
+- [Assurance cases and evidence](#assurance-cases-and-evidence)
 - [Simulation, scenarios, and benchmarks](#simulation-scenarios-and-benchmarks)
 - [Robotics and physical autonomy](#robotics-and-physical-autonomy)
 - [Aerospace and space autonomy](#aerospace-and-space-autonomy)
@@ -28,6 +29,7 @@ Maintained by [Sylvester Kaczmarek](https://github.com/sylvesterkaczmarek) · [s
 - [The Black-Box Simplex Architecture for Runtime Assurance of Autonomous CPS](https://arxiv.org/abs/2102.12981) - Runtime assurance without relying on internal information from advanced or baseline controllers.
 - [Runtime Safety Assurance for Learning-enabled Control of Autonomous Driving Vehicles](https://arxiv.org/abs/2109.13446) - Simplex-Drive architecture combining a learned controller, a safe baseline controller, and verified switching logic.
 - [Synergistic Simplex](https://arxiv.org/abs/2605.08190) - 2026 work on cooperative runtime assurance that allows constrained information flow between learned components and safety monitors while preserving formal safety conditions.
+- [Mission-Level Runtime Assurance Framework for Autonomous Driving](https://arxiv.org/abs/2606.06996) - Extends runtime assurance beyond local platform safety to reject high-level commands that make future mission completion infeasible.
 - [S3A: Secure System Simplex Architecture for Enhanced Security of Cyber-Physical Systems](https://arxiv.org/abs/1202.5722) - Extends Simplex ideas toward cyber-resilient control and intrusion response.
 - [Run Time Assurance for Electric Vertical Takeoff and Landing Aircraft](https://ntrs.nasa.gov/citations/20210026909) - NASA study of RTA for highly automated and autonomous eVTOL functions.
 - [A Verification Framework for Runtime Assurance of Autonomous UAS](https://ntrs.nasa.gov/citations/20240010429) - NASA framework for verifying RTA architectures around untrusted components such as AI/ML controllers.
@@ -70,9 +72,18 @@ Maintained by [Sylvester Kaczmarek](https://github.com/sylvesterkaczmarek) · [s
 - [Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) - Runtime governance components and policy-engine interfaces for agent systems.
 - [SROS 2](https://github.com/ros2/sros2) - ROS 2 tooling for DDS-Security keys, certificates, encryption, and access-control policies.
 
+## Assurance cases and evidence
+
+- [SACE](https://www.york.ac.uk/assuring-autonomy/guidance/sace/) - University of York methodology for integrating system-level safety assurance into autonomous-system development and constructing structured safety cases for complex environments.
+- [AMLAS](https://www.york.ac.uk/assuring-autonomy/guidance/amlas/) - Six-stage methodology for building explicit safety arguments and evidence around machine-learning components used in autonomous systems.
+- [Safety Assurance Objectives for Autonomous Systems V4](https://scsc.uk/resources/citation_r1942.html) - Pan-domain guidance from the Safety-Critical Systems Club focused specifically on autonomy and AI/ML assurance objectives.
+- [AdvoCATE User Guide](https://ntrs.nasa.gov/citations/20220009664) - NASA guide to an assurance-case toolset connecting hazards, requirements, risk models, structured arguments, and evidence logs.
+- [Structured Assurance Case Metamodel 2.3](https://www.omg.org/spec/SACM/About-SACM) - OMG standard for interoperable machine-readable models of claims, argumentation, evidence, and assurance-case artifacts.
+
 ## Simulation, scenarios, and benchmarks
 
 - [Safety-Gymnasium](https://github.com/PKU-Alignment/safety-gymnasium) - Standardized environments and APIs for benchmarking safe reinforcement learning.
+- [safe-control-gym](https://github.com/learnsyslab/safe-control-gym) - Physics-based benchmark suite for safe learning-based control with explicit safety constraints, disturbances, and implemented safety filters.
 - [SafeBench](https://github.com/trust-ai/SafeBench) - Benchmark for evaluating autonomous-driving systems in safety-critical scenarios.
 - [CARLA](https://github.com/carla-simulator/carla) - Open-source autonomous-driving simulator for development, training, and validation.
 - [CARLA ScenarioRunner](https://github.com/carla-simulator/scenario_runner) - Scenario definition and execution engine for structured autonomous-driving tests.
@@ -101,7 +112,9 @@ Maintained by [Sylvester Kaczmarek](https://github.com/sylvesterkaczmarek) · [s
 
 ## Standards and assurance guidance
 
-- [ASTM F3269-17](https://store.astm.org/f3269-17.html) - Standard practice for safely bounding UAS flight behavior containing complex functions through runtime assurance architectures.
+- [ASTM F3269-21](https://store.astm.org/f3269-21.html) - Active standard practice for safely bounding aircraft-system behavior containing complex functions using runtime assurance.
+- [FAA Roadmap for Artificial Intelligence Safety Assurance](https://www.faa.gov/aircraft/air_cert/step/roadmap_for_AI_safety_assurance) - FAA roadmap defining principles and priorities for assuring AI used in aircraft and related inflight systems.
+- [EASA Artificial Intelligence Concept Paper Issue 2](https://www.easa.europa.eu/en/document-library/general-publications/easa-artificial-intelligence-concept-paper-issue-2) - EASA guidance for Level 1 and Level 2 machine-learning applications, including learning assurance, explainability, and human-AI teaming.
 - [ANSI/UL 4600](https://www.ul.com/services/autonomous-vehicle-safety-training-and-advisory) - Goal-based safety standard for evaluating autonomous products that operate without human supervision.
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) - Cross-sector framework for managing risks and trustworthiness across the AI lifecycle.
 - [NIST AI Resource Center](https://airc.nist.gov) - NIST resources for operationalizing AI risk management, including testing, evaluation, verification, and validation.
