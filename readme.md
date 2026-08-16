@@ -1,5 +1,7 @@
 # Awesome Assured Autonomy [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+![Awesome Assured Autonomy](assets/social/github-social-card-awesome-assured-autonomy.png)
+
 A curated list of research, tools, benchmarks, standards, and open-source systems for building autonomous systems that can be trusted in the real world.
 
 The focus is assurance for systems that sense, decide, and act with meaningful physical or operational consequences. This includes robotics, autonomous vehicles, aerospace and space systems, learning-enabled control, embodied agents, and agentic software that can invoke consequential tools.
