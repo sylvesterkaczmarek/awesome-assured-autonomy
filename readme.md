@@ -18,7 +18,6 @@ Maintained by [Sylvester Kaczmarek](https://github.com/sylvesterkaczmarek) · [s
 - [Robotics and physical autonomy](#robotics-and-physical-autonomy)
 - [Aerospace and space autonomy](#aerospace-and-space-autonomy)
 - [Standards and assurance guidance](#standards-and-assurance-guidance)
-- [License](#license)
 
 ## Foundations and runtime assurance
 
@@ -124,9 +123,3 @@ A resource should normally meet at least two of these criteria:
 - sufficiently mature, influential, or novel to justify recommendation.
 
 Low-signal link dumps, generic AI safety material without an autonomy connection, abandoned projects without historical importance, and promotional submissions are unlikely to be accepted.
-
-## License
-
-To the extent possible under law, this list is dedicated to the public domain under [CC0 1.0 Universal](LICENSE).
-
-Curated by **Sylvester Kaczmarek**.
