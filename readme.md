@@ -6,7 +6,7 @@ A curated list of research, tools, benchmarks, standards, and open-source system
 
 The focus is assurance for systems that sense, decide, and act with meaningful physical or operational consequences. This includes robotics, autonomous vehicles, aerospace and space systems, learning-enabled control, embodied agents, and agentic software that can invoke consequential tools.
 
-Maintained by [Sylvester Kaczmarek](https://github.com/sylvesterkaczmarek) · [sylvesterkaczmarek.com](https://www.sylvesterkaczmarek.com).
+Maintained by [Sylvester Kaczmarek](https://github.com/sylvesterkaczmarek).
 
 > **Curation rule:** inclusion means the resource is useful enough to recommend, not merely related. Prefer primary sources, maintained tools, reproducible work, and resources with clear assurance value.
 
@@ -157,6 +157,6 @@ If you use or adapt this curated list, please cite:
 }
 ```
 
-The list is released under CC0 1.0 Universal. See [LICENSE](LICENSE).
+CC0-1.0. See [LICENSE](LICENSE).
 
-Curated by **Sylvester Kaczmarek**.
+Curated by **Sylvester Kaczmarek** · [sylvesterkaczmarek.com](https://www.sylvesterkaczmarek.com)
