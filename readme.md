@@ -157,8 +157,6 @@ If you use or adapt this curated list, please cite:
 }
 ```
 
-Citation metadata is also provided in [`CITATION.cff`](CITATION.cff).
-
 The list is released under CC0 1.0 Universal. See [LICENSE](LICENSE).
 
 Curated by **Sylvester Kaczmarek**.
