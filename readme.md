@@ -146,8 +146,6 @@ If you use or adapt this curated list, please cite:
 
 > Kaczmarek, S. (2026). *Awesome Assured Autonomy*. GitHub. https://github.com/sylvesterkaczmarek/awesome-assured-autonomy
 
-**BibTeX**
-
 ```bibtex
 @misc{Kaczmarek_2026_Awesome_Assured_Autonomy,
   author = {Sylvester Kaczmarek},
